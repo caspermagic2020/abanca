@@ -1,0 +1,171 @@
+.ti {
+    -webkit-text-size-adjust: 100%;
+  font-variant: normal;
+    font-style: normal;
+    padding: 0;
+    font-family: Roboto, Arial, FreeSans, Sans-Serif;
+    font-weight: normal;
+    color: #7B858A;
+    margin: 0.19em 0 .3em 0;
+    line-height: 1.2;
+    font-size: 1.3em;
+    margin-left: 13px;
+}
+
+.logo {
+    width: 30px;
+    margin-top: -18px;
+    position: absolute;
+    margin-left: -357px;
+}
+
+
+.form { font-family: sans-serif;
+    width: 250px;
+    
+}
+
+.section {
+     font-size: 20px;
+    margin-bottom: 0.3em;
+
+    color: #5a85d7;
+    font-family: Roboto, Arial, FreeSans, Sans-Serif;
+}
+
+
+
+.cj1 {
+    margin: 10px;
+    width: 350px;
+    height: 150px;
+    background-color: #F4F4F5;
+    -webkit-text-size-adjust: 100%;
+    font-family: Arial, FreeSans, Sans-Serif;
+    font-size: x-small;
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5em;
+    padding: 10px;
+    display: inline;
+    margin-left: 3px;
+    border: solid 0.5px rgb(187, 187, 187);
+    margin-top: 10px;
+    
+}
+
+
+.nif {
+    margin-left: -134px;
+    width: 224px;
+}
+ 
+.f1 {
+    margin-left: -165px;
+    color: #666;
+}
+
+
+.f2 {
+    color: #313538;
+}
+
+.dr1 {
+    -webkit-text-size-adjust: 100%;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    line-height: normal;
+    margin-bottom: 0;
+    height: 25px;
+    border: 1px solid #809DB9;
+    width: 12.8em;
+}
+
+
+.dr2 {
+    -webkit-text-size-adjust: 100%;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    line-height: normal;
+    margin-bottom: 0;
+    height: 25px;
+    border: 1px solid #809DB9;
+    width: 4.8em;
+}
+
+.caja-principal {
+ 
+     
+}
+.empresa {
+    width: 400px;
+     
+}
+
+.em {
+    width: 334px;
+    
+}
+
+
+.cj2 {
+   
+    padding-left: 50px;
+
+
+}
+
+
+.form {
+    width: 400px;
+    height: 400px;
+}
+
+
+.acc {
+    -webkit-text-size-adjust: 100%;
+    font: inherit;
+    overflow: visible;
+    -webkit-appearance: button;
+    text-transform: none;
+    border-radius: 4px;
+    background: #5A85D7;
+    color: #fff;
+    padding: 0 2.9em 3px 2.9em;
+    width: 10em;
+    line-height: 32px;
+    float: right;
+    font-weight: bold;
+    margin: 1.5em 0 0 0;
+    height: 2.8em;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+
+.acc2 {
+    -webkit-text-size-adjust: 100%;
+    font: inherit;
+    overflow: visible;
+    -webkit-appearance: button;
+    text-transform: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 2.9em 3px 2.9em;
+    width: 10em;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 1.5em 0 0 0;
+    height: 2.8em;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    background: #7B858A;
+    float: right;
+    margin-right: 1em;
+}
